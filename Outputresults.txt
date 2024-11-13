@@ -1,0 +1,58 @@
+test_arg_length (__main__.TestFinal.test_arg_length)
+when args != 2, output contains usage ... ok
+test_invalid_date (__main__.TestFinal.test_invalid_date)
+output contains usage when bad date ... ok
+test_invalid_num (__main__.TestFinal.test_invalid_num)
+output contains usage when bad number ... ok
+test_neg_arg (__main__.TestFinal.test_neg_arg)
+script returns expected output with negative number ... ok
+test_pos_arg (__main__.TestFinal.test_pos_arg)
+script returns expected output with positive number ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.181s
+
+OK
+test_after_date (__main__.TestAfter.test_after_date) ... ok
+test_dtypes (__main__.TestAfter.test_dtypes)
+after() is returning string ... ok
+test_leap (__main__.TestAfter.test_leap)
+after() works with leap year ... ok
+test_before_date (__main__.TestBefore.test_before_date) ... ok
+test_dtypes (__main__.TestBefore.test_dtypes)
+before() is returning string ... ok
+test_leap (__main__.TestBefore.test_leap)
+before() works with leap year ... ok
+test_after_iter (__main__.TestDayIter.test_after_iter)
+does day_iter work with positive numbers ... ok
+test_before_iter (__main__.TestDayIter.test_before_iter)
+does day_iter work with negative numbers ... ok
+test_dow (__main__.TestDayOfWeek.test_dow)
+test day of week function ... ok
+test_arg_length (__main__.TestFinal.test_arg_length)
+when args != 2, output contains usage ... ok
+test_invalid_date (__main__.TestFinal.test_invalid_date)
+output contains usage when bad date ... ok
+test_invalid_num (__main__.TestFinal.test_invalid_num)
+output contains usage when bad number ... ok
+test_neg_arg (__main__.TestFinal.test_neg_arg)
+script returns expected output with negative number ... ok
+test_pos_arg (__main__.TestFinal.test_pos_arg)
+script returns expected output with positive number ... ok
+test_leap_func (__main__.TestLeap.test_leap_func)
+leap_year function exists and returns True/False ... ok
+test_unallowed_module (__main__.TestModuleRestriction.test_unallowed_module)
+you have imported a prohibited module ... ok
+test_leap_max (__main__.TestMonMax.test_leap_max)
+test mon_max with feb of leap/non-leap years ... ok
+test_mon_max (__main__.TestMonMax.test_mon_max)
+test the mon_max function ... ok
+test_invalid_dates (__main__.TestValidDate.test_invalid_dates)
+making sure invalid dates return False ... ok
+test_valid_dates (__main__.TestValidDate.test_valid_dates)
+making sure valid dates return True ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 0.211s
+
+OK
